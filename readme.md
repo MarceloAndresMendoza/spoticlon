@@ -34,7 +34,7 @@ Tools used to create the project
 ## Versioning 📌
 
 Version control system [Git](https://git-scm.com).
-For all available versions, check out the [tags in this repository](https://github.com/MarceloAndresMendoza/tags).
+For all available versions, check out the [tags in this repository](https://github.com/MarceloAndresMendoza/spoticlon/tags).
 
 ## Authors ✒️
 
