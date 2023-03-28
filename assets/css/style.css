@@ -38,6 +38,10 @@ nav a:hover {
     color:#1ed760;
 }
 
+.height-81 {
+    min-height: 81px;
+}
+
 .nav-brand-logo {
     margin: auto 0 auto 40px;
     fill: white;
@@ -70,7 +74,86 @@ nav a:hover {
     margin-top: 3px;
 }
 
-/* First section */
+/* Hamburguer menu ============================= */
+
+.nav-menu-hamburguer {
+    margin: auto 0;
+}
+
+.hamburguer_line {
+    background-color: white;
+    border: solid 2px black;
+    height: 7px;
+    width: 35px;
+}
+
+.hamburguer-menu {
+    background-color: rgba(0,0,0,70%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.hamburguer-menu-content {
+    background-color: black;
+    color:white;
+    padding: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 400px;
+    height: 100vh;
+}
+
+.hamburguer-menu-content ul{
+    list-style: none;
+}
+.hamburguer-menu-content li{
+    margin: 0 0 20px 0;
+}
+.horizontal-divider {
+    width: 1.5em;
+    height: 2px;
+    background-color: white;
+    margin-top: 3px;
+}
+.hamburguer-menu-content a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Spotify Book';
+    font-size: 28px;
+}
+
+.hamburguer-menu-content a.big{
+    color:white;
+    text-decoration: none;
+    font-family: 'Spotify Bold';
+    font-size: 35px;
+}
+
+.hamburguer-menu-content a:hover {
+    color: #1ed760;
+}
+
+.hamburguer-menu-logo {
+    margin: 40px 15px;
+    fill: white;
+    color: white;
+}
+
+.hamburguer-menu-logo svg {
+    transform: scale(1.5);
+}
+
+.hamburguer-close-button {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: x-large;
+}
+
+/* First blue section */
 .blue-section {
     background-color: #1d75de;
     color: white;
@@ -212,11 +295,29 @@ nav a:hover {
     }
 }
 
+@media(max-width: 999px) {
+    .expand {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .nav-menu-hamburguer {
+        display: none;
+    }
+}
+
 .features-list p {
     margin: 10px 0;
 }
-
+/* ========================================================== */
 /* !!  Debug  !! */
 /* .blue-section {
     display: none;
 } */
+
+.hamburguer-menu {
+    /* Display or hide the menu */
+    /* Comment / uncomment the next line */
+    display: none;
+}
