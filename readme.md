@@ -1,6 +1,6 @@
 # SpotiClon
 
-Spotify clon, an exercise of HTML + CSS.
+Spotify clon, an exercise of HTML + pure handwritten CSS.
 
 ## Description
 
