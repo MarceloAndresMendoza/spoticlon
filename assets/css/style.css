@@ -20,18 +20,18 @@
     font-family: 'Spotify Book', Helvetica, Arial, sans-serif;
 }
 
+/* Navbar menu*/
 nav {
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: white;
     padding: 0 20px;
-    font-family: 'Spotify Black', Helvetica, Arial, sans-serif;
 }
-
 nav a {
-    color:white;
     text-decoration: none;
+    font-family: 'Spotify Black', Helvetica, Arial, sans-serif;
+    color:white;
 }
 
 nav a:hover {
@@ -39,7 +39,7 @@ nav a:hover {
 }
 
 .nav-brand-logo {
-    margin: auto 0 auto 60px;
+    margin: auto 0 auto 40px;
     fill: white;
     color: white;
 }
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .nav-menu ul li:last-of-type {
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .vertical-divider {
@@ -69,3 +69,154 @@ nav a:hover {
     background-color: white;
     margin-top: 3px;
 }
+
+/* First section */
+.blue-section {
+    background-color: #1d75de;
+    color: white;
+    padding: 40px 26px 30px 26px;
+}
+.blue-section h1 {
+    font-size: 40px;
+    font-family: 'Spotify Black';
+    margin: 0 0 20px 0;
+}
+
+.blue-section p:not(.disclaimer) {
+    font-size: 24px;
+    margin: 0 0 40px 0;
+}
+
+.disclaimer {
+    font-size: 11px;
+    margin: 40px 0 0 0;
+}
+
+.disclaimer a {
+    color: white;
+}
+
+.button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: 'Spotify Bold';
+    text-transform: uppercase;
+    font-size:14px;
+    margin: 0 5px 0 0;
+}
+
+.button:hover {
+    transform: scale(105%);
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+}
+
+.button-blue {
+    background-color: #1d75de;
+    color: white;
+    border: solid 2px white;
+}
+
+/* White section  */
+.white-section {
+    background-color: white;
+    color: black;
+    padding: 30px;
+}
+
+.white-section h1 {
+    font-size: 40px;
+    font-family: 'Spotify Black';
+    text-align: center;
+    margin: 50px 0 60px 0;
+}
+
+.bold {
+    font-family: 'Spotify Black';
+    font-size: 20px;
+}
+
+.features-list {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 60px;
+    gap: 20px;
+}
+
+.horizontal-align {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: no-wrap;
+    width: 48%;
+}
+
+.horizontal-align img {
+    object-fit:contain;
+}
+
+@media(max-width: 768px) {
+    .white-section h1 {
+        font-size: 30px;
+    }
+
+    .features-list {
+        display: flex;
+        /* align-items: center; */
+        justify-content: unset;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 10px;
+        gap: 40px;
+    }
+
+    .horizontal-align {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: no-wrap;
+        width: 100%;
+    }
+
+    .horizontal-align img {
+        object-fit:contain;
+        width: 120px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .features-list {
+        justify-content: center;
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+    .horizontal-align {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: no-wrap;
+        width: 20%;
+        text-align: center;
+    }
+
+    .horizontal-align img {
+        object-fit:contain;
+        width: 140px;
+    }
+}
+
+.features-list p {
+    margin: 10px 0;
+}
+
+/* !!  Debug  !! */
+/* .blue-section {
+    display: none;
+} */
