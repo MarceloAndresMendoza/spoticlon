@@ -3,6 +3,11 @@
 Spotify clon, an exercise of HTML + pure handwritten CSS.
 By Marcelo Mendoza.
 
+# Where to view it
+
+Here, with [this link](https://marceloandresmendoza.github.io/spoticlon/) on GitHub Pages.
+
+
 ## Description
 
 Using HTML and CSS, this website contains the style of Spotify's help page.
