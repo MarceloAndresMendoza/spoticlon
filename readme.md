@@ -1,6 +1,7 @@
 # SpotiClon
 
 Spotify clon, an exercise of HTML + pure handwritten CSS.
+By Marcelo Mendoza.
 
 ## Description
 
