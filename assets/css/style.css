@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Spotify Book";
+    src: url('../fonts/CircularSpotify-UI-Latin-OS2v3-Book.woff2');
+}
+
+@font-face {
+    font-family: "Spotify Black";
+    src: url('../fonts/CircularSpotify-UI-Latin-OS2v3-Black.woff2');
+}
+
+@font-face {
+    font-family: "Spotify Bold";
+    src: url('../fonts/CircularSpotify-UI-Latin-OS2v3-Bold.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spotify Book', Helvetica, Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    font-family: 'Spotify Black', Helvetica, Arial, sans-serif;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#1ed760;
+}
+
+.nav-brand-logo {
+    margin: auto 0 auto 60px;
+    fill: white;
+    color: white;
+}
+
+.nav-brand-logo svg {
+    transform: scale(2);
+}
+
+.nav-menu ul {
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu ul li {
+    margin: 0 18px;
+    list-style: none;
+}
+
+.nav-menu ul li:last-of-type {
+    margin: 0;
+}
+
+.vertical-divider {
+    width: 1px;
+    height: 1em;
+    background-color: white;
+    margin-top: 3px;
+}
